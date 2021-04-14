@@ -182,9 +182,9 @@ header .logo {
       padding: 25px 0;
       right: 0;
       left: 20px;
-      opacity: 0;
+    /*  opacity: 0;
       visibility: hidden;
-      transform: translateY(-100px);
+      transform: translateY(-100px);*/
       transition: all 0.4s ease; } }
   .filter.scroll {
     opacity: 1;
@@ -251,6 +251,7 @@ header .logo {
 .about {
   width: 50%;
   height: 100vh;
+  margin-top: 40px;
   float: left;
   position: -webkit-sticky;
   position: sticky;
@@ -513,7 +514,7 @@ header .logo {
         z-index: 2; }
         @media screen and (max-width: 500px) {
           .links ul .seperator .year {
-            top: -10px;
+            top: -45px;
             left: calc(100% + 47px); } }
       .links ul .seperator .month {
         position: absolute;
