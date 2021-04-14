@@ -627,7 +627,7 @@ header .logo {
           transition: all 0.3s linear, opacity 0.2s linear; }
           @media screen and (max-width: 500px) {
             .links ul li a .title {
-              overflow: scroll; } }
+              overflow: hidden; } }
           .links ul li a .title h4 {
             width: calc(100% - 8px);
             height: 40px;
