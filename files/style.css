@@ -20,9 +20,19 @@ time, mark, audio, video {
   background: black; }
 
 iframe {
-    position: fixed;
-    bottom: 0;
-    left: 0;
+
+      width: calc(100% - 10px);
+      max-width: 480px;
+      padding-left: 0px;
+      padding-right: 40px;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+      right: 0;
+      z-index: 2;
+      transition: all 0.6s linear; }
+
 }
 body {
   line-height: 1; }
@@ -346,7 +356,7 @@ header .logo {
         .about .inner form .mc-field-group:hover label {
           opacity: 0.5; }
         .about .inner form .mc-field-group.active label {
-          opacity: 0; 
+          opacity: 0;
           transform: translateY(20px); }
       .about .inner form input[type='submit'] {
         width: 46px;
