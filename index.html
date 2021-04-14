@@ -1,348 +1,443 @@
-<html lang="en-US"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<!DOCTYPE html>
 
-		<title>Dragon Hub</title>
-		<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
-		<script src="files/wp-emoji-release.js" type="text/javascript" defer="defer"></script>
-		<style type="text/css">
-img.wp-smiley,
-img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 .07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
-}
-</style>
+<html lang="en-US">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="content-type">
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport">
 
-		<link rel="stylesheet" href="files/style.css">
+	<title>Dragon Hub</title>
+	<link href="images/favicon.png" rel="shortcut icon" type="image/png">
+	<script defer="defer" src="files/wp-emoji-release.js" type="text/javascript">
+	</script>
+	<style type="text/css">
+	img.wp-smiley,
+	img.emoji {
+	   display: inline !important;
+	   border: none !important;
+	   box-shadow: none !important;
+	   height: 1em !important;
+	   width: 1em !important;
+	   margin: 0 .07em !important;
+	   vertical-align: -0.1em !important;
+	   background: none !important;
+	   padding: 0 !important;
+	}
+	</style>
+	<link href="files/style.css" rel="stylesheet">
+</head>
 
-	</head>
-
-	<body id="scrollable">
-	    <div id="wrapper" style="display: block;">
-	        <div class="overlay"></div>
-	        <header>
-	            <div class="logo">
-	                <svg width="32" height="35" viewBox="0 0 32 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M16 0V34.641" stroke="black"></path>
-						<path d="M31 25.9807L1 8.6602" stroke="black"></path>
-						<path d="M31 8.66016L0.999999 25.9807" stroke="black"></path>
-						<circle cx="16.4337" cy="16.8875" r="6.49519" fill="white"></circle>
-					</svg>
-	            </div>
-	            <ul class="filter active">
-	            	<li class="all">
-	                    <h2 class="active">[x]</h2>
-	                </li>
-	            					   <li class="article">
-				   		<h2>open</h2>
-				   </li>
-									   <li class="book">
-				   		<h2>invite</h2>
-				   </li>
-									   <li class="video">
-				   		<h2>learn</h2>
-				   </li>
-									   <li class="other">
-				   		<h2>beta</h2>
-				   </li>
-						            </ul>
-	        </header>
-    <div class="wrapper-inner">
-
-        <div class="about">
-            <div class="inner">
-
-            <div onmouseover="mOver(this)" onmouseout="mOut(this)"
-            style="color:#ffffff;font-size:30px;font-weight:bold">
-         Hello.
-               </div><br>
-
-                <p>Use the <a href="#" onclick="document.getElementById('search').value='what is a metasearch engine'; document.getElementById('search').focus();">metasearch</a> engine below to search the internet without being <a href="#" onclick="document.getElementById('search').value=''; document.getElementById('search').focus();">tracked</a>.</p><br>
-
-    <div>
-<form method="post" action="https://search.drgn.xyz/" target="_blank">
-  <!-- search      --> <input type="text" id="search" name="q" placeholder="Search like a Dragon"/>
-  <!-- categories  --> <input type="hidden" name="categories" value="general,social media" />
-  <!-- language    --> <input type="hidden" name="lang" value="all" />
-  <!-- locale      --> <input type="hidden" name="locale" value="en" />
-  <!-- date filter --> <input type="hidden" name="time_range" value="month" />
-</form>
-
-<style>
-input[type=text], select, textarea{
-  color: white;
-  padding: 12px;
-  border: 1px solid #fff;
-  background: black;
-  border-radius: 4px;
-  box-sizing: border-box;
-  resize: vertical;
- </style>
-</div>
-
-<br><p>Find all the <a href="https://status.drgn.xyz">active systems</a> and some learning resources to the right. Have fun exploring!</p>
-
-<br><p>Want access to something? <a href="https://me.drgn.app">Find me.</a></p>
-
-               <br><p>Find a <a href="#" onclick="document.getElementById('search').value='what is a playlist'; document.getElementById('search').focus();">playlist</a> below curated by a <img src='images/dragon.png' style='width:118px;height:20px;'>.</p><br>
-
-  <br><br>   <div id="iframe">
-           <iframe src="https://open.spotify.com/embed/playlist/2yt96bGyrTTdHG9gojE2ZF" width="442" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-           </div>
+<body id="scrollable">
+	<div id="wrapper" style="display: block;">
+		<div class="overlay">
+		</div>
 
 
-            </div>
+		<header>
+			<div class="logo">
+				<svg height="35" viewbox="0 0 32 35" width="32" xmlns="http://www.w3.org/2000/svg">
+				<path d="M16 0V34.641" stroke="black">
+				</path>
+
+				<path d="M31 25.9807L1 8.6602" stroke="black">
+				</path>
+
+				<path d="M31 8.66016L0.999999 25.9807" stroke="black">
+				</path>
+
+				<circle cx="16.4337" cy="16.8875" fill="white" r="6.49519">
+				</circle></svg>
+			</div>
 
 
+			<ul class="filter active">
+				<li class="all">
+					<h2 class="active">[x]</h2>
+				</li>
 
-        </div>
 
-    	<div class="links">
+				<li class="article">
+					<h2>open</h2>
+				</li>
 
-            <ul>
 
-                                        <div class="seperator">
-                                                            <h3 class="year">
-                                    <span>version/date –</span></h3>
+				<li class="book">
+					<h2>invite</h2>
+				</li>
 
-                        </div>
-                                        <li class="book  load">
-                        <a href="https://cloud.drgn.xyz" title="dragon cloud">
-                            <div class="category"></div>
-                            <div class="title">
-                                <h4>cloud</h4>
-                            </div>
-                            <div class="date">
-                                <span>nextcloud 20.0.9</span>
-                            </div>
-                        </a>
 
-                    </li>
-                                    <li class="book  load">
-                        <a href="https://drgn.im" title="dragon chat">
-                            <div class="category"></div>
-                            <div class="title">
-                                <h4>chat</h4>
-                            </div>
-                            <div class="date">
-                                <span>matrix 1.31.0</span>
-                            </div>
-                        </a>
+				<li class="video">
+					<h2>learn</h2>
+				</li>
 
-                    </li>
 
-                           <li class="book  load">
-                        <a href="https://drgn.social" title="dragon social">
-                            <div class="category"></div>
-                            <div class="title">
-                                <h4>social</h4>
-                            </div>
-                            <div class="date">
-                                <span>mastadon 3.3.0</span>
-                            </div>
-                        </a>
+				<li class="other">
+					<h2>beta</h2>
+				</li>
+			</ul>
+		</header>
 
-                    </li>
-                    <li class="book  load">
-                        <a href="https://git.drgn.xyz" title="dragon git">
-                            <div class="category"></div>
-                            <div class="title">
-                                <h4>git</h4>
-                            </div>
-                            <div class="date">
-                                <span>gitlab 13.10.2</span>
-                            </div>
-                        </a>
 
-                    </li>
-                                    <li class="article  load">
-                        <a href="https://search.drgn.xyz" title="dragon search">
-                            <div class="category"></div>
-                            <div class="title">
-                                <h4>search</h4>
-                            </div>
-                            <div class="date">
-                                <span>searx 1.0.0</span>
-                            </div>
-                        </a>
+		<div class="wrapper-inner">
+			<div class="about">
+				<div class="inner">
+					<div onmouseout="mOut(this)" onmouseover="mOver(this)" style="color:#ffffff;font-size:30px;font-weight:bold">
+						Hello.
+					</div>
+					<br>
 
-                    </li>
 
-                           <li class="article  load">
-                        <a href="https://cloud.drgn.xyz" title="dragon share">
-                            <div class="category"></div>
-                            <div class="title">
-                                <h4>file share</h4>
-                            </div>
-                            <div class="date">
-                                <span>jirafeau 4.3.0</span>
-                            </div>
-                        </a>
+					<p>Use the <a href="#" onclick="document.getElementById('search').value='what is a metasearch engine'; document.getElementById('search').focus();">metasearch</a> engine below to search the internet without being <a href="#" onclick="document.getElementById('search').value=''; document.getElementById('search').focus();">tracked</a>.</p>
+					<br>
 
-                    </li>
-                    <li class="book  load">
-                        <a href="https://drgnl.ink" title="dragon links">
-                            <div class="category"></div>
-                            <div class="title">
-                                <h4>links</h4>
-                            </div>
-                            <div class="date">
-                                <span>kutt 2.7.0</span>
-                            </div>
-                        </a>
 
-                    </li>
-                                    <li class="other  load">
-                        <a href="https://fireit.to" title="fireit.to">
-                            <div class="category"></div>
-                            <div class="title">
-                                <h4>fireitto</h4>
-                            </div>
-                            <div class="date">
-                                <span>kutt 2.7.0</span>
-                            </div>
-                        </a>
+					<div>
+						<form action="https://search.drgn.xyz/" method="post" target="_blank">
+							<!-- search      --><input id="search" name="q" placeholder="Search like a Dragon" type="text"> <!-- categories  --> <input name="categories" type="hidden" value="general,social media"> <!-- language    --> <input name="lang" type="hidden" value="all"> <!-- locale      --> <input name="locale" type="hidden" value="en"> <!-- date filter --> <input name="time_range" type="hidden" value="month">
+						</form>
+						<style>
+						input[type=text], select, textarea{
+						color: white;
+						padding: 12px;
+						border: 1px solid #fff;
+						background: black;
+						border-radius: 4px;
+						box-sizing: border-box;
+						resize: vertical;
+						</style>
+					</div>
+					<br>
 
-                    </li>
 
-                           <li class="other  load">
-                        <a href="https://forum.drgn.systems" title="dragon forum">
-                            <div class="category"></div>
-                            <div class="title">
-                                <h4>forum</h4>
-                            </div>
-                            <div class="date">
-                                <span>discourse 2.6.4</span>
-                            </div>
-                        </a>
+					<p>Find all the <a href="https://status.drgn.xyz">active systems</a> and some learning resources to the right. Have fun exploring!</p>
+					<br>
 
-                    </li>
-                    <li class="other  load">
-                        <a href="https://status.drgn.xyz" title="dragon status">
-                            <div class="category"></div>
-                            <div class="title">
-                                <h4>status</h4>
-                            </div>
-                            <div class="date">
-                                <span>upptime 2.0.0</span>
-                            </div>
-                        </a>
 
-                    </li>
-                                    <li class="book  load">
-                        <a href="https://docs.drgn.xyz" title="dragon docs">
-                            <div class="category"></div>
-                            <div class="title">
-                                <h4>docs</h4>
-                            </div>
-                            <div class="date">
-                                <span>hedgedoc 1.7.2</span>
-                            </div>
-                        </a>
+					<p>Want access to something? <a href="https://me.drgn.app">Find me.</a></p>
+					<br>
 
-                    </li>
 
-                           <li class="other  load">
-                        <a href="https://media.drgn.xyz" title="dragon netflix">
-                            <div class="category"></div>
-                            <div class="title">
-                                <h4>media</h4>
-                            </div>
-                            <div class="date">
-                                <span>jellyfin 10.7.2</span>
-                            </div>
-                        </a>
+					<p>Find a <a href="#" onclick="document.getElementById('search').value='what is a playlist'; document.getElementById('search').focus();">playlist</a> below curated by a <img src='images/dragon.png' style='width:118px;height:20px;'>.</p>
+					<br>
+					<br>
+					<br>
 
-                    </li>
 
-                    <li class="book  load">
-                        <a href="https://sync.drgn.xyz" title="dragon sync">
-                            <div class="category"></div>
-                            <div class="title">
-                                <h4>sync</h4>
-                            </div>
-                            <div class="date">
-                                <span>syncthing 1.15.1</span>
-                            </div>
-                        </a>
+					<div id="iframe">
+						<iframe frameborder="0" height="80" src="https://open.spotify.com/embed/playlist/2yt96bGyrTTdHG9gojE2ZF" width="442"></iframe>
+					</div>
+				</div>
+			</div>
 
-                    </li>
 
-                     <li class="other  load">
-                        <a href="https://pay.drgn.xyz" title="dragon pay">
-                            <div class="category"></div>
-                            <div class="title">
-                                <h4>invoices</h4>
-                            </div>
-                            <div class="date">
-                                <span>invoice ninja 4.5.37</span>
-                            </div>
-                        </a>
+			<div class="links">
+				<ul>
 
-                    </li>
-
-                      <li class="book  load">
-                        <a href="https://vault.drgn.xyz" title="dragon password manager">
-                            <div class="category"></div>
-                            <div class="title">
-                                <h4>vault</h4>
-                            </div>
-                            <div class="date">
-                                <span>bitwarden 1.20.0</span>
-                            </div>
-                        </a>
-
-                    </li>
-
-                     <li class="book  load">
-                        <a href="https://my.drgn.xyz" title="dragon server">
-                            <div class="category"></div>
-                            <div class="title">
-                                <h4>server</h4>
-                            </div>
-                            <div class="date">
-                                <span>cloudron 6.2.7</span>
-                            </div>
-                        </a>
-
-                    </li>
-
-                    <li class="other  load">
-                        <a href="https://testing.drgn.app" title="dragon portfolio">
-                            <div class="category"></div>
-                            <div class="title">
-                                <h4>portfolio</h4>
-                            </div>
-                            <div class="date">
-                                <span>updated 4.12.21</span>
-                            </div>
-                        </a>
-
-                    </li>
-
-                            </ul>
-        </div>
-
-    </div>
+						<div class="seperator">
+							<h3 class="year"><span>version/date –</span>
+							</h3>
+						</div>
 
 
 
-		</div> <!-- #page-state -->
+					<li class="book load">
+						<a href="https://cloud.drgn.xyz" title="dragon cloud">
+						<div class="category">
+						</div>
 
-		<script src="files/scripts-min.js"></script>
 
-		<script type="text/javascript" src="files/wp-embed.js"></script>
+						<div class="title">
+							<h4>cloud</h4>
+						</div>
 
 
-<!---	uncomment for date/clock	<script type="text/javascript">
+						<div class="date">
+							<span>nextcloud 20.0.9</span>
+						</div></a>
+					</li>
+
+
+					<li class="book load">
+						<a href="https://drgn.im" title="dragon chat">
+						<div class="category">
+						</div>
+
+
+						<div class="title">
+							<h4>chat</h4>
+						</div>
+
+
+						<div class="date">
+							<span>matrix 1.31.0</span>
+						</div></a>
+					</li>
+
+
+					<li class="book load">
+						<a href="https://drgn.social" title="dragon social">
+						<div class="category">
+						</div>
+
+
+						<div class="title">
+							<h4>social</h4>
+						</div>
+
+
+						<div class="date">
+							<span>mastadon 3.3.0</span>
+						</div></a>
+					</li>
+
+
+					<li class="book load">
+						<a href="https://git.drgn.xyz" title="dragon git">
+						<div class="category">
+						</div>
+
+
+						<div class="title">
+							<h4>git</h4>
+						</div>
+
+
+						<div class="date">
+							<span>gitlab 13.10.2</span>
+						</div></a>
+					</li>
+
+
+					<li class="article load">
+						<a href="https://search.drgn.xyz" title="dragon search">
+						<div class="category">
+						</div>
+
+
+						<div class="title">
+							<h4>search</h4>
+						</div>
+
+
+						<div class="date">
+							<span>searx 1.0.0</span>
+						</div></a>
+					</li>
+
+
+					<li class="article load">
+						<a href="https://cloud.drgn.xyz" title="dragon share">
+						<div class="category">
+						</div>
+
+
+						<div class="title">
+							<h4>file share</h4>
+						</div>
+
+
+						<div class="date">
+							<span>jirafeau 4.3.0</span>
+						</div></a>
+					</li>
+
+
+					<li class="book load">
+						<a href="https://drgnl.ink" title="dragon links">
+						<div class="category">
+						</div>
+
+
+						<div class="title">
+							<h4>links</h4>
+						</div>
+
+
+						<div class="date">
+							<span>kutt 2.7.0</span>
+						</div></a>
+					</li>
+
+
+					<li class="other load">
+						<a href="https://fireit.to" title="fireit.to">
+						<div class="category">
+						</div>
+
+
+						<div class="title">
+							<h4>fireitto</h4>
+						</div>
+
+
+						<div class="date">
+							<span>kutt 2.7.0</span>
+						</div></a>
+					</li>
+
+
+					<li class="other load">
+						<a href="https://forum.drgn.systems" title="dragon forum">
+						<div class="category">
+						</div>
+
+
+						<div class="title">
+							<h4>forum</h4>
+						</div>
+
+
+						<div class="date">
+							<span>discourse 2.6.4</span>
+						</div></a>
+					</li>
+
+
+					<li class="other load">
+						<a href="https://status.drgn.xyz" title="dragon status">
+						<div class="category">
+						</div>
+
+
+						<div class="title">
+							<h4>status</h4>
+						</div>
+
+
+						<div class="date">
+							<span>upptime 2.0.0</span>
+						</div></a>
+					</li>
+
+
+					<li class="book load">
+						<a href="https://docs.drgn.xyz" title="dragon docs">
+						<div class="category">
+						</div>
+
+
+						<div class="title">
+							<h4>docs</h4>
+						</div>
+
+
+						<div class="date">
+							<span>hedgedoc 1.7.2</span>
+						</div></a>
+					</li>
+
+
+					<li class="other load">
+						<a href="https://media.drgn.xyz" title="dragon netflix">
+						<div class="category">
+						</div>
+
+
+						<div class="title">
+							<h4>media</h4>
+						</div>
+
+
+						<div class="date">
+							<span>jellyfin 10.7.2</span>
+						</div></a>
+					</li>
+
+
+					<li class="book load">
+						<a href="https://sync.drgn.xyz" title="dragon sync">
+						<div class="category">
+						</div>
+
+
+						<div class="title">
+							<h4>sync</h4>
+						</div>
+
+
+						<div class="date">
+							<span>syncthing 1.15.1</span>
+						</div></a>
+					</li>
+
+
+					<li class="other load">
+						<a href="https://pay.drgn.xyz" title="dragon pay">
+						<div class="category">
+						</div>
+
+
+						<div class="title">
+							<h4>invoices</h4>
+						</div>
+
+
+						<div class="date">
+							<span>invoice ninja 4.5.37</span>
+						</div></a>
+					</li>
+
+
+					<li class="book load">
+						<a href="https://vault.drgn.xyz" title="dragon password manager">
+						<div class="category">
+						</div>
+
+
+						<div class="title">
+							<h4>vault</h4>
+						</div>
+
+
+						<div class="date">
+							<span>bitwarden 1.20.0</span>
+						</div></a>
+					</li>
+
+
+					<li class="book load">
+						<a href="https://my.drgn.xyz" title="dragon server">
+						<div class="category">
+						</div>
+
+
+						<div class="title">
+							<h4>server</h4>
+						</div>
+
+
+						<div class="date">
+							<span>cloudron 6.2.7</span>
+						</div></a>
+					</li>
+
+
+					<li class="other load">
+						<a href="https://testing.drgn.app" title="dragon portfolio">
+						<div class="category">
+						</div>
+
+
+						<div class="title">
+							<h4>portfolio</h4>
+						</div>
+
+
+						<div class="date">
+							<span>updated 4.12.21</span>
+						</div></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- #page-state -->
+	<script src="files/scripts-min.js">
+	</script>
+	<script src="files/wp-embed.js" type="text/javascript">
+	</script>
+
+	<!---   uncomment for date/clock    <script type="text/javascript">
     const dateDiv = document.getElementById('date-div');
 
 function myDateFunction() {
@@ -353,19 +448,18 @@ function myDateFunction() {
 setInterval(myDateFunction, 1000);
 </script>
 <div id="date-div"></div>
-	-->
-
-	<!---submit form immediately
-	document.querySelector('form').submit();--->
+    -->
+	 <!---submit form immediately
+    document.querySelector('form').submit();=-->
 
 	<script>
-function mOver(obj) {
-  obj.innerHTML =  "Everything."
-}
+	function mOver(obj) {
+	 obj.innerHTML =  "Everything."
+	}
 
-function mOut(obj) {
-  obj.innerHTML = "Hoarded by a Dragon."
-}
-</script>
-
-</body></html>
+	function mOut(obj) {
+	 obj.innerHTML = "Hoarded by a Dragon."
+	}
+	</script>
+</body>
+</html>
