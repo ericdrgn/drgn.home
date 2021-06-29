@@ -103,6 +103,7 @@ html {
 body {
   margin: 0 auto;
   overflow-x: hidden;
+  overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
   transition: background 0.3s linear; }
 
@@ -267,7 +268,7 @@ header .logo {
     max-width: 480px;
     padding: 40px;
     position: relative;
-    top: 50%;
+    top: 40%;
     transform: translateY(-50%);
     left: 0;
     z-index: 2;
@@ -422,6 +423,7 @@ header .logo {
 
 .links {
   width: 50%;
+  overflow-y: hidden;
   display: inline-block;
   float: left;
   margin-top: 50px; }
