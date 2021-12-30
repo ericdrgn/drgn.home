@@ -266,9 +266,9 @@ header .logo {
   .about .inner {
     width: calc(100% - 80px);
     max-width: 480px;
-    padding: 30px;
+    padding: 5px;
     position: relative;
-    top: 15%;
+    top: 30%;
     transform: translateY(-50%);
     left: 0;
     z-index: 2;
