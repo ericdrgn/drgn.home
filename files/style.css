@@ -268,7 +268,7 @@ header .logo {
     max-width: 480px;
     padding: 40px;
     position: relative;
-    top: 40%;
+    top: 20%;
     transform: translateY(-50%);
     left: 0;
     z-index: 2;
